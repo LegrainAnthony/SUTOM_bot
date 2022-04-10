@@ -133,9 +133,5 @@ function callEveryHour() {
      setTimeout(callEveryHour, difference);
  }
 
-   // Enregistrer les scores à minuit dans un plus grand tableau et les calculer 
-   
-   // Heberger le bot
-
 
    client.login(process.env.BOT_TOKEN);
